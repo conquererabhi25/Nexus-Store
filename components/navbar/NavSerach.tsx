@@ -28,7 +28,7 @@ function NavSerach() {
     if(!searchParams.get("search")){
       setSearch("")
     }
-  },[searchParams.get("search")])
+  },[searchParams])
 
   return (
     <Input type="search" value={search} onChange={(e:React.ChangeEvent<HTMLInputElement>) => {
