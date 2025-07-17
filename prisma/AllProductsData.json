@@ -1,0 +1,762 @@
+[
+  
+    {
+            "name": "iPhone 15 Pro",
+      "company": "Apple",
+      "description": "Latest iPhone with titanium design, A17 Pro chip, and advanced camera system",
+      "category": "Electronics",
+      "featured": true,
+      "image": "https://example.com/iphone15pro.jpg",
+      "price": 99999,
+            "clerkId": "user_1"
+    },
+    {
+            "name": "Samsung Galaxy S24 Ultra",
+      "company": "Samsung",
+      "description": "Premium Android smartphone with S Pen, 200MP camera, and AI features",
+      "category": "Electronics",
+      "featured": true,
+      "image": "https://example.com/galaxys24ultra.jpg",
+      "price": 11999,
+
+      "clerkId": "user_2"
+    },
+    {
+            "name": "Google Pixel 8 Pro",
+      "company": "Google",
+      "description": "AI-powered smartphone with exceptional photography and pure Android experience",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/pixel8pro.jpg",
+      "price": 8999,
+            "clerkId": "user_3"
+    },
+  
+ 
+    {
+            "name": "MacBook Pro 16-inch M3",
+      "company": "Apple",
+      "description": "Professional laptop with M3 chip, Liquid Retina XDR display, and all-day battery",
+      "category": "Electronics",
+      "featured": true,
+      "image": "https://example.com/macbookpro16.jpg",
+      "price": 24999,
+      "clerkId": "user_4"
+    },
+    {
+            "name": "Dell XPS 13 Plus",
+      "company": "Dell",
+      "description": "Ultra-thin laptop with 13th Gen Intel processors and stunning InfinityEdge display",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/dellxps13.jpg",
+      "price": 12999,
+
+      "clerkId": "user_5"
+    },
+    {
+            "name": "ThinkPad X1 Carbon",
+      "company": "Lenovo",
+      "description": "Business laptop with military-grade durability and enterprise security features",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/thinkpadx1.jpg",
+      "price": 1599,
+
+      "clerkId": "user_6"
+    },
+  
+    
+    {
+            "name": "iPad Pro 12.9-inch",
+      "company": "Apple",
+      "description": "Professional tablet with M2 chip, Liquid Retina XDR display, and Apple Pencil support",
+      "category": "Electronics",
+      "featured": true,
+      "image": "https://example.com/ipadpro.jpg",
+      "price": 10999,
+
+      "clerkId": "user_7"
+    },
+    {
+            "name": "Surface Pro 9",
+      "company": "Microsoft",
+      "description": "2-in-1 tablet with laptop performance, featuring Intel Core processors",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/surfacepro9.jpg",
+      "price": 99999,
+            "clerkId": "user_8"
+    },
+  
+
+    {
+            "name": "AirPods Pro 2nd Gen",
+      "company": "Apple",
+      "description": "Premium wireless earbuds with active noise cancellation and spatial audio",
+      "category": "Electronics",
+      "featured": true,
+      "image": "https://example.com/airpodspro2.jpg",
+      "price": 24999,
+      "clerkId": "user_9"
+    },
+    {
+      
+      "name": "Sony WH-1000XM5",
+      "company": "Sony",
+      "description": "Industry-leading noise canceling headphones with 30-hour battery life",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/sonywh1000xm5.jpg",
+      "price": 39999,
+            "clerkId": "user_10"
+    },
+    {
+      
+      "name": "Bose QuietComfort 45",
+      "company": "Bose",
+      "description": "Wireless noise cancelling headphones with legendary comfort and sound quality",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/boseqc45.jpg",
+      "price": 32999,
+       "clerkId": "user_11"
+    },
+  
+   
+    {
+      
+      "name": "Amazon Echo Dot 5th Gen",
+      "company": "Amazon",
+      "description": "Smart speaker with Alexa, improved audio, and temperature sensor",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/echodot5.jpg",
+      "price": 4999,
+
+      "clerkId": "user_12"
+    },
+    {
+      
+      "name": "Google Nest Hub Max",
+      "company": "Google",
+      "description": "Smart display with Google Assistant, video calling, and home control",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/nesthubmax.jpg",
+      "price": 22999,
+            "clerkId": "user_13"
+    },
+    {
+      
+      "name": "Philips Hue Color Bulb",
+      "company": "Philips",
+      "description": "Smart LED bulb with 16 million colors and app control",
+      "category": "Electronics",
+      "featured": false,
+      "image": "https://example.com/philipshue.jpg",
+      "price": 4999,
+
+           "clerkId": "user_14"
+    },
+  
+   
+    {
+      
+      "name": "Classic Denim Jacket",
+      "company": "Levi's",
+      "description": "Timeless denim jacket in classic blue wash, perfect for layering",
+      "category": "Clothing",
+      "featured": true,
+      "image": "https://example.com/levis-jacket.jpg",
+      "price": 7999,
+           "clerkId": "user_15"
+    },
+    {
+      
+      "name": "Cotton Polo Shirt",
+      "company": "Ralph Lauren",
+      "description": "Premium cotton polo shirt with classic fit and iconic logo",
+      "category": "Clothing",
+      "featured": false,
+      "image": "https://example.com/polo-shirt.jpg",
+      "price": 8999,
+           "clerkId": "user_16"
+    },
+    {
+      
+      "name": "Slim Fit Chinos",
+      "company": "J.Crew",
+      "description": "Versatile chino pants in slim fit, perfect for casual and smart-casual looks",
+      "category": "Clothing",
+      "featured": false,
+      "image": "https://example.com/chinos.jpg",
+      "price": 6999,
+           "clerkId": "user_17"
+    },
+  
+ 
+    {
+      
+      "name": "Wrap Dress",
+      "company": "Zara",
+      "description": "Elegant wrap dress in floral print, perfect for office or dinner",
+      "category": "Clothing",
+      "featured": true,
+      "image": "https://example.com/wrap-dress.jpg",
+      "price": 5999,
+           "clerkId": "user_18"
+    },
+    {
+      
+      "name": "Cashmere Sweater",
+      "company": "Uniqlo",
+      "description": "Luxurious cashmere sweater in classic cut, available in multiple colors",
+      "category": "Clothing",
+      "featured": false,
+      "image": "https://example.com/cashmere-sweater.jpg",
+      "price": 12999,
+            "clerkId": "user_19"
+    },
+    {
+      
+      "name": "High-Waisted Jeans",
+      "company": "American Eagle",
+      "description": "Trendy high-waisted jeans with stretch fabric for comfort and style",
+      "category": "Clothing",
+      "featured": false,
+      "image": "https://example.com/high-waisted-jeans.jpg",
+      "price": 4999,
+
+           "clerkId": "user_20"
+    },
+  
+ 
+    {
+      
+      "name": "Air Max 90",
+      "company": "Nike",
+      "description": "Iconic running shoe with visible Air cushioning and retro design",
+      "category": "Footwear",
+      "featured": true,
+      "image": "https://example.com/airmax90.jpg",
+      "price": 11999,
+            "clerkId": "user_21"
+    },
+    {
+      
+      "name": "Chuck Taylor All Star",
+      "company": "Converse",
+      "description": "Classic canvas sneaker, timeless style for casual wear",
+      "category": "Footwear",
+      "featured": false,
+      "image": "https://example.com/chucktaylor.jpg",
+      "price": 5999,
+           "clerkId": "user_22"
+    },
+    {
+      
+      "name": "Desert Boot",
+      "company": "Clarks",
+      "description": "Original desert boot in suede leather with crepe sole",
+      "category": "Footwear",
+      "featured": false,
+      "image": "https://example.com/desertboot.jpg",
+      "price": 13999,
+            "clerkId": "user_23"
+    },
+    {
+      
+      "name": "Running Shoes",
+      "company": "Adidas",
+      "description": "Boost technology running shoes for ultimate comfort and performance",
+      "category": "Footwear",
+      "featured": false,
+      "image": "https://example.com/adidas-boost.jpg",
+      "price": 1599,
+            "clerkId": "user_24"
+    },
+  
+   
+    {
+      
+      "name": "The Psychology of Money",
+      "company": "Penguin Random House",
+      "description": "Timeless lessons on wealth, greed, and happiness by Morgan Housel",
+      "category": "Books",
+      "featured": true,
+      "image": "https://example.com/psychology-money.jpg",
+      "price": 1599,
+           "clerkId": "user_25"
+    },
+    {
+      
+      "name": "Atomic Habits",
+      "company": "Avery",
+      "description": "An easy & proven way to build good habits & break bad ones by James Clear",
+      "category": "Books",
+      "featured": true,
+      "image": "https://example.com/atomic-habits.jpg",
+      "price": 1799,
+           "clerkId": "user_26"
+    },
+    {
+      
+      "name": "Dune",
+      "company": "Ace Books",
+      "description": "Classic science fiction novel by Frank Herbert, epic space opera",
+      "category": "Books",
+      "featured": false,
+      "image": "https://example.com/dune.jpg",
+      "price": 1299,
+           "clerkId": "user_27"
+    },
+    {
+      
+      "name": "The Silent Patient",
+      "company": "Celadon Books",
+      "description": "Psychological thriller by Alex Michaelides, bestselling mystery novel",
+      "category": "Books",
+      "featured": false,
+      "image": "https://example.com/silent-patient.jpg",
+      "price": 1399,
+           "clerkId": "user_28"
+    },
+  
+ 
+    {
+      
+      "name": "Robot Vacuum Cleaner",
+      "company": "iRobot",
+      "description": "Roomba j7+ with automatic dirt disposal and smart mapping",
+      "category": "Home & Garden",
+      "featured": true,
+      "image": "https://example.com/roomba-j7.jpg",
+      "price": 7999,
+            "clerkId": "user_29"
+    },
+    {
+      
+      "name": "Air Purifier",
+      "company": "Dyson",
+      "description": "HEPA air purifier with cooling function and app control",
+      "category": "Home & Garden",
+      "featured": false,
+      "image": "https://example.com/dyson-purifier.jpg",
+      "price": 54999,
+
+      "clerkId": "user_30"
+    },
+    {
+      
+      "name": "Memory Foam Mattress",
+      "company": "Casper",
+      "description": "Queen size memory foam mattress with zoned support and cooling technology",
+      "category": "Home & Garden",
+      "featured": true,
+      "image": "https://example.com/casper-mattress.jpg",
+      "price": 11999,
+
+      "clerkId": "user_31"
+    },
+    {
+      
+      "name": "Coffee Maker",
+      "company": "Keurig",
+      "description": "K-Elite single serve coffee maker with multiple brew sizes",
+      "category": "Home & Garden",
+      "featured": false,
+      "image": "https://example.com/keurig-elite.jpg",
+      "price": 16999,
+            "clerkId": "user_32"
+    },
+  
+
+    {
+      
+      "name": "Yoga Mat",
+      "company": "Lululemon",
+      "description": "The Mat 5mm - premium yoga mat with superior grip and cushioning",
+      "category": "Sports & Outdoors",
+      "featured": false,
+      "image": "https://example.com/lululemon-mat.jpg",
+      "price": 6999,
+           "clerkId": "user_33"
+    },
+    {
+      
+      "name": "Hiking Backpack",
+      "company": "Patagonia",
+      "description": "40L hiking backpack with hydration compatibility and weather resistance",
+      "category": "Sports & Outdoors",
+      "featured": false,
+      "image": "https://example.com/patagonia-backpack.jpg",
+      "price": 19999,
+            "clerkId": "user_34"
+    },
+    {
+      
+      "name": "Tennis Racket",
+      "company": "Wilson",
+      "description": "Pro Staff precision tennis racket used by professionals",
+      "category": "Sports & Outdoors",
+      "featured": false,
+      "image": "https://example.com/wilson-racket.jpg",
+      "price": 29999,
+            "clerkId": "user_35"
+    },
+    {
+      
+      "name": "Mountain Bike",
+      "company": "Trek",
+      "description": "Full suspension mountain bike with 29-inch wheels and 12-speed drivetrain",
+      "category": "Sports & Outdoors",
+      "featured": true,
+      "image": "https://example.com/trek-bike.jpg",
+      "price": 29999,
+
+      "clerkId": "user_36"
+    },
+  
+   
+    {
+      
+      "name": "Vitamin C Serum",
+      "company": "The Ordinary",
+      "description": "Ascorbic Acid 8% + Alpha Arbutin 2% brightening serum",
+      "category": "Beauty & Personal Care",
+      "featured": false,
+      "image": "https://example.com/vitamin-c-serum.jpg",
+      "price": 899,
+          "clerkId": "user_37"
+    },
+    {
+      
+      "name": "Electric Toothbrush",
+      "company": "Oral-B",
+      "description": "Pro 3000 electric toothbrush with pressure sensor and timer",
+      "category": "Beauty & Personal Care",
+      "featured": false,
+      "image": "https://example.com/oral-b-pro3000.jpg",
+      "price": 9999,
+           "clerkId": "user_38"
+    },
+    {
+      
+      "name": "Hair Dryer",
+      "company": "Dyson",
+      "description": "Supersonic hair dryer with intelligent heat control and fast drying",
+      "category": "Beauty & Personal Care",
+      "featured": true,
+      "image": "https://example.com/dyson-hairdryer.jpg",
+      "price": 42999,
+            "clerkId": "user_39"
+    },
+    {
+      
+      "name": "Moisturizing Cream",
+      "company": "Neutrogena",
+      "description": "Hydro Boost water gel moisturizer with hyaluronic acid",
+      "category": "Beauty & Personal Care",
+      "featured": false,
+      "image": "https://example.com/neutrogena-moisturizer.jpg",
+      "price": 1299,
+           "clerkId": "user_40"
+    },
+    
+    {
+      
+      "name": "LEGO Creator Expert",
+      "company": "LEGO",
+      "description": "Creator Expert Taj Mahal building set with 2000+ pieces",
+      "category": "Toys & Games",
+      "featured": true,
+      "image": "https://example.com/lego-tajmahal.jpg",
+      "price": 39999,
+            "clerkId": "user_41"
+    },
+    {
+      
+      "name": "Nintendo Switch OLED",
+      "company": "Nintendo",
+      "description": "Gaming console with 7-inch OLED screen and enhanced audio",
+      "category": "Toys & Games",
+      "featured": true,
+      "image": "https://example.com/switch-oled.jpg",
+      "price": 34999,
+
+      "clerkId": "user_42"
+    },
+    {
+      
+      "name": "Chess Set",
+      "company": "House of Staunton",
+      "description": "Tournament chess set with wooden pieces and folding board",
+      "category": "Toys & Games",
+      "featured": false,
+      "image": "https://example.com/chess-set.jpg",
+      "price": 12999,
+            "clerkId": "user_43"
+    },
+    {
+      
+      "name": "Remote Control Drone",
+      "company": "DJI",
+      "description": "Mini 3 Pro drone with 4K camera and intelligent flight modes",
+      "category": "Toys & Games",
+      "featured": false,
+      "image": "https://example.com/dji-mini3pro.jpg",
+      "price": 75999,
+            "clerkId": "user_44"
+    },
+  
+  
+    {
+      
+      "name": "Organic Coffee Beans",
+      "company": "Blue Bottle Coffee",
+      "description": "Single origin Ethiopian coffee beans, medium roast",
+      "category": "Food & Beverages",
+      "featured": false,
+      "image": "https://example.com/blue-bottle-coffee.jpg",
+      "price": 1899,
+           "clerkId": "user_45"
+    },
+    {
+      
+      "name": "Protein Powder",
+      "company": "Optimum Nutrition",
+      "description": "Gold Standard 100% Whey protein powder in vanilla flavor",
+      "category": "Food & Beverages",
+      "featured": false,
+      "image": "https://example.com/optimum-protein.jpg",
+      "price": 5999,
+           "clerkId": "user_46"
+    },
+    {
+      
+      "name": "Dark Chocolate",
+      "company": "Lindt",
+      "description": "Excellence 85% cocoa dark chocolate bar",
+      "category": "Food & Beverages",
+      "featured": false,
+      "image": "https://example.com/lindt-chocolate.jpg",
+      "price": 499,
+          "clerkId": "user_47"
+    },
+    {
+      
+      "name": "Green Tea",
+      "company": "Twinings",
+      "description": "Pure green tea bags, pack of 40 individually wrapped bags",
+      "category": "Food & Beverages",
+      "featured": false,
+      "image": "https://example.com/twinings-green-tea.jpg",
+      "price": 699,
+          "clerkId": "user_48"
+    },
+  
+    
+    {
+      
+      "name": "Car Phone Mount",
+      "company": "iOttie",
+      "description": "Easy One Touch wireless charging car mount for smartphones",
+      "category": "Automotive",
+      "featured": false,
+      "image": "https://example.com/iottie-mount.jpg",
+      "price": 4999,
+
+           "clerkId": "user_49"
+    },
+    {
+      
+      "name": "Car Dash Cam",
+      "company": "Garmin",
+      "description": "Dash Cam 67W with 180-degree field of view and voice control",
+      "category": "Automotive",
+      "featured": false,
+      "image": "https://example.com/garmin-dashcam.jpg",
+      "price": 19999,
+            "clerkId": "user_50"
+    },
+    {
+      
+      "name": "Tire Pressure Gauge",
+      "company": "JACO",
+      "description": "Elite tire pressure gauge with professional accuracy",
+      "category": "Automotive",
+      "featured": false,
+      "image": "https://example.com/jaco-gauge.jpg",
+      "price": 1999,
+           "clerkId": "user_51"
+    },
+  
+   
+    {
+      
+      "name": "Fitness Tracker",
+      "company": "Fitbit",
+      "description": "Charge 5 fitness tracker with GPS and stress management tools",
+      "category": "Health & Wellness",
+      "featured": true,
+      "image": "https://example.com/fitbit-charge5.jpg",
+      "price": 19999,
+            "clerkId": "user_52"
+    },
+    {
+      
+      "name": "Resistance Bands Set",
+      "company": "Bodylastics",
+      "description": "Max Tension resistance bands set with door anchor and handles",
+      "category": "Health & Wellness",
+      "featured": false,
+      "image": "https://example.com/bodylastics-bands.jpg",
+      "price": 2999,
+           "clerkId": "user_53"
+    },
+    {
+      
+      "name": "Essential Oil Diffuser",
+      "company": "URPOWER",
+      "description": "Ultrasonic aromatherapy diffuser with 7 color LED lights",
+      "category": "Health & Wellness",
+      "featured": false,
+      "image": "https://example.com/urpower-diffuser.jpg",
+      "price": 3999,
+           "clerkId": "user_54"
+    },
+  
+    
+    {
+      
+      "name": "Dog Food",
+      "company": "Hill's Science Diet",
+      "description": "Adult dry dog food with chicken and barley, 30 lb bag",
+      "category": "Pet Supplies",
+      "featured": false,
+      "image": "https://example.com/hills-dog-food.jpg",
+      "price": 5999,
+           "clerkId": "user_55"
+    },
+    {
+      
+      "name": "Cat Litter Box",
+      "company": "PetSafe",
+      "description": "ScoopFree Ultra self-cleaning litter box with disposable trays",
+      "category": "Pet Supplies",
+      "featured": false,
+      "image": "https://example.com/petsafe-litterbox.jpg",
+      "price": 16999,
+            "clerkId": "user_56"
+    },
+    {
+      
+      "name": "Pet Bed",
+      "company": "Furhaven",
+      "description": "Orthopedic memory foam pet bed with removable cover",
+      "category": "Pet Supplies",
+      "featured": false,
+      "image": "https://example.com/furhaven-bed.jpg",
+      "price": 4999,
+
+           "clerkId": "user_57"
+    },
+  
+  
+    {
+      
+      "name": "Wireless Mouse",
+      "company": "Logitech",
+      "description": "MX Master 3S wireless mouse with ultra-fast scrolling",
+      "category": "Office Supplies",
+      "featured": false,
+      "image": "https://example.com/logitech-mx-master.jpg",
+      "price": 9999,
+           "clerkId": "user_58"
+    },
+    {
+      
+      "name": "Standing Desk",
+      "company": "FlexiSpot",
+      "description": "Electric height adjustable standing desk with memory preset",
+      "category": "Office Supplies",
+      "featured": true,
+      "image": "https://example.com/flexispot-desk.jpg",
+      "price": 39999,
+            "clerkId": "user_59"
+    },
+    {
+      
+      "name": "Office Chair",
+      "company": "Herman Miller",
+      "description": "Aeron ergonomic office chair with lumbar support",
+      "category": "Office Supplies",
+      "featured": true,
+      "image": "https://example.com/herman-miller-aeron.jpg",
+      "price": 13999,
+
+      "clerkId": "user_60"
+    },
+  
+   
+    {
+      
+      "name": "Instant Pot",
+      "company": "Instant Brands",
+      "description": "Duo 7-in-1 electric pressure cooker, 6 quart capacity",
+      "category": "Kitchen & Dining",
+      "featured": true,
+      "image": "https://example.com/instant-pot-duo.jpg",
+      "price": 9999,
+           "clerkId": "user_61"
+    },
+    {
+      
+      "name": "Non-Stick Pan Set",
+      "company": "Calphalon",
+      "description": "Contemporary hard-anodized nonstick cookware set",
+      "category": "Kitchen & Dining",
+      "featured": false,
+      "image": "https://example.com/calphalon-set.jpg",
+      "price": 24999,
+
+      "clerkId": "user_62"
+    },
+    {
+      
+      "name": "Knife Set",
+      "company": "Wüsthof",
+      "description": "Classic 8-piece knife set with hardwood block",
+      "category": "Kitchen & Dining",
+      "featured": false,
+      "image": "https://example.com/wusthof-knives.jpg",
+      "price": 39999,
+            "clerkId": "user_63"
+    },
+    {
+      
+      "name": "Blender",
+      "company": "Vitamix",
+      "description": "A3500 Ascent Series smart blender with wireless connectivity",
+      "category": "Kitchen & Dining",
+      "featured": false,
+      "image": "https://example.com/vitamix-a3500.jpg",
+      "price": 5999,
+            "clerkId": "user_64"
+    },
+  
+    
+    {
+      
+      "name": "Acoustic Guitar",
+      "company": "Taylor",
+      "description": "814ce Grand Auditorium acoustic-electric guitar",
+      "category": "Musical Instruments",
+      "featured": true,
+      "image": "https://example.com/taylor-814ce.jpg",
+      "price": 39999,
+
+      "clerkId": "user_65"
+    }
+]
