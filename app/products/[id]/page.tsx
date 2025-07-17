@@ -7,8 +7,15 @@ import AddToCart from "@/components/single-product-details/AddToCart";
 import ProductRating from "@/components/single-product-details/ProductRating";
 
 
-async function SingleProduct({params}:{params:{id:string}}) {
-    const productId = await params.id
+interface SingleProductProps {
+    params: {
+      id: string;
+    };
+  }
+  
+
+  async function SingleProduct({ params }: SingleProductProps) {
+    const productId = params.id;
     const product = await fetchSingleProduct(productId)
     const { name, price, image, description, company } = product;
     const DollarAmount = formatCurrancy(price);
