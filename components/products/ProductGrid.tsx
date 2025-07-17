@@ -4,8 +4,8 @@ import { Product } from "@prisma/client";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import { FaHeart } from "react-icons/fa";
-import { Button } from "@/components/ui/button";
+// import { FaHeart } from "react-icons/fa";
+// import { Button } from "@/components/ui/button";
 import FavouriteToggleButton from "@/components/products/FavouriteToggleButton";
 
 const ProductGrid = ({ products }: { products: Product[] }) => {

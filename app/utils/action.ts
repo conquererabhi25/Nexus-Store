@@ -1,5 +1,4 @@
 import db from "@/app/utils/db";
-import SingleProduct  from "../products/[id]/page";
 import { redirect } from "next/navigation";
 
 export const fetchFeturedProducts = async () => {

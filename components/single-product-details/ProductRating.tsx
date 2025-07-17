@@ -2,6 +2,7 @@ import React from 'react'
 import {FaStar} from "react-icons/fa"
 
 const ProductRating = ({productID}:{productID:string}) => {
+  console.log(productID)
     const rating = 4.2
     const count = 5
     const className = `flex gap-1 items-center  text-md mt-1 mb-4`
