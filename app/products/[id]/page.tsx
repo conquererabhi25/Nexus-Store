@@ -9,14 +9,14 @@ import AddToCart from "@/components/single-product-details/AddToCart";
 import ProductRating from "@/components/single-product-details/ProductRating";
 
 // ✅ Define the props properly for Next.js App Router pages
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
+// type PageProps = {
+//   params: {
+//     id: string;
+//   };
+// };
 
 // ✅ This is the right structure
-export default async function SingleProductPage({ params }: PageProps) {
+export default async function SingleProductPage({ params }:{params:{id:any}}) {
   const productId = params.id;
 
   const product = await fetchSingleProduct(productId);
