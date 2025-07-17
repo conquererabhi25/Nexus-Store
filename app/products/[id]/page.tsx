@@ -1,3 +1,5 @@
+
+import { notFound } from "next/navigation";
 import BreadCrumbs from "@/components/single-product-details/BreadCrumbs";
 import { fetchSingleProduct } from "@/app/utils/action";
 import Image from "next/image";
@@ -6,24 +8,27 @@ import FavouriteToggleButton from "@/components/products/FavouriteToggleButton";
 import AddToCart from "@/components/single-product-details/AddToCart";
 import ProductRating from "@/components/single-product-details/ProductRating";
 
+// ✅ Define the props properly for Next.js App Router pages
+type PageProps = {
+  params: {
+    id: string;
+  };
+};
 
-interface SingleProductProps {
-    params: {
-      id: string;
-    };
-  }
-  
+// ✅ This is the right structure
+export default async function SingleProductPage({ params }: PageProps) {
+  const productId = params.id;
 
-  async function SingleProduct({ params }: SingleProductProps) {
-    const productId = params.id;
-    const product = await fetchSingleProduct(productId)
-    const { name, price, image, description, company } = product;
-    const DollarAmount = formatCurrancy(price);
-    console.log("Im Product Main Page")
- 
-    return(
-        <section>
-        <BreadCrumbs name={product.name}>
+  const product = await fetchSingleProduct(productId);
+
+  if (!product) return notFound();
+
+  const { name, price, image, description, company } = product;
+  const DollarAmount = formatCurrancy(price);
+
+  return (
+    <section>
+      <BreadCrumbs name={product.name}>
         <div className="mt-6 grid gap-y-8 lg:grid-cols-2 lg:gap-x-16">
           {/* Image first column */}
           <div className="relative h-full">
@@ -54,7 +59,5 @@ interface SingleProductProps {
         </div>
       </BreadCrumbs>
     </section>
-    )
+  );
 }
-
-export default SingleProduct
