@@ -6,6 +6,8 @@ import CartButton from "./CartButton";
 import {ModeToggle} from "./ThemeChange";
 import LinksDropDown from "./LinksDropDown";
 import { Suspense } from "react";
+import SignOutLink from "@/components/navbar/SignOutLink";
+
 
 function NavbarPage() {
   return (
@@ -20,6 +22,7 @@ function NavbarPage() {
           <CartButton />
           <ModeToggle/>
           <LinksDropDown/>
+       
         </div>
       </Container>
     </nav>

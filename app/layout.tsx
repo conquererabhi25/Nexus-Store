@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+
 import { Geist, Geist_Mono } from "next/font/google";
 import NavbarPage from "@/components/navbar/Navbar";
 import Container from "@/components/global/Container";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ClerkProvider } from "@clerk/nextjs";
 import Providers from "@/app/provider";
-import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from 'sonner' 
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,22 +30,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-         <ThemeProvider
+    <ClerkProvider>
+      <html lang="en" suppressHydrationWarning>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
-        <Providers>
-          <NavbarPage />
-          <Container className="my-10">{children}</Container>
-        </Providers>
-        </ThemeProvider>
-      </body>
-    </html>
+            <Providers>
+              <NavbarPage />
+              <Toaster richColors position="top-right" /> 
+              <Container className="my-10">{children}</Container>
+            </Providers>
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

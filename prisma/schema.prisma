@@ -25,7 +25,6 @@ model Product {
   name      String
   company   String
   description String
-  category  String
   featured  Boolean
   image     String
   price     Int

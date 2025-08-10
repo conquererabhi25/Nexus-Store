@@ -1,3 +1,6 @@
+// keywords : currency format , currency format curruncy 
+
+
 export const formatCurrancy = (amount:number | null)=>{
     const Value = amount || 0 
     return new Intl.NumberFormat("en-us",{
