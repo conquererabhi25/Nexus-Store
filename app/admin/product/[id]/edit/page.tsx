@@ -11,13 +11,13 @@ import { ButtonSubmit } from "@/components/form/ButtonSubmit";
 import CheckboxInput from "@/components/form/CheckBoxInput";
 import ImageInputContainer from "@/components/form/ImageInputContainer";
 
-// type PageProps = {
-//   params: {
-//     id: string;
-//   };
-// };
+type EditProductPageProps = {
+  params: {
+    id: string;
+  };
+};
 
-async function EditProduct({ params }: { params: { id: string } }) {
+async function EditProduct({ params }: EditProductPageProps) {
   const { id } = params;
   const product = await fetchSingleProductForUpdate(id);
   const { name, price, image, description, company, featured } = product;
