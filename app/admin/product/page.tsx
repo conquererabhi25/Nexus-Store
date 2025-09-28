@@ -43,7 +43,7 @@ async function AdminProducts() {
               name,
               company,
               price,
-              description,
+             
             } = eachItem;
             return (
               <TableRow key={productId}>

@@ -6,7 +6,7 @@ import CartButton from "./CartButton";
 import {ModeToggle} from "./ThemeChange";
 import LinksDropDown from "./LinksDropDown";
 import { Suspense } from "react";
-import SignOutLink from "@/components/navbar/SignOutLink";
+
 
 
 function NavbarPage() {

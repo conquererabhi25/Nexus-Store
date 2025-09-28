@@ -8,9 +8,8 @@ import { productSchema, ImageSchema, validateWithZodSchema } from "./schemas";
 import { ZodError } from "zod";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { deleteDBImage, uploadImages } from "./supabase";
-import { get } from "http";
 import { revalidatePath } from "next/cache";
-import id from "zod/v4/locales/id.cjs";
+
 
 const getAuthUser = async () => {
   const user = await currentUser();
@@ -84,7 +83,7 @@ export const fetchAdminProducts = async () => {
 // Create product action / function
 
 export const CreateProductAction = async (
-  prevState: any,
+  // prevState: any,
   formData: FormData
 ): Promise<{ message: string }> => {
   const { userId } = await auth();
@@ -115,7 +114,7 @@ export const CreateProductAction = async (
     if (error instanceof ZodError) {
       console.error("Validation Errors:", error.issues);
     }
-    return { message: error.message || "An unexpected error occurred" };
+    // return { message: error.message || "An unexpected error occurred" };
   }
   redirect("/admin/product");
 };
@@ -135,7 +134,7 @@ export const DeleteProductAction = async (prevState: { productId: string }) => {
     revalidatePath("/admin/product");
     return { message: "Product deleted from database." };
   } catch (error) {
-    return { message: "Failed to delete product" };
+    return { message: `Failed to delete product-${error}` };
   }
 };
 
@@ -153,7 +152,7 @@ export const fetchSingleProductForUpdate = async (productId: string) => {
 };
 
 export const UpdateProductAction = async (
-  prevState: any,
+  // prevState: any,
   formData: FormData
 ) => {
   await getAdminUser();
@@ -172,16 +171,16 @@ export const UpdateProductAction = async (
     revalidatePath("/admin/product");
     return { message: "Product updated successfully." };
   } catch (error) {
-    return { message: "Failed to update product" };
+    return { message: `Failed to update product-${error}` };
   }
 };
 
-export const UpdateImageAction = async (prevState: any, formData: FormData) => {
+export const UpdateImageAction = async ( formData: FormData) => {
   await getAdminUser();
   try {
     const image = formData.get("image") as File;
     const productId = formData.get("id") as string;
-    const oldImageUrl = formData.get("url") as string;
+    
 
     const validateFile = validateWithZodSchema(ImageSchema, { image });
     const fullPath = await uploadImages(validateFile.image);
@@ -196,6 +195,6 @@ export const UpdateImageAction = async (prevState: any, formData: FormData) => {
     revalidatePath(`admin/product/${productId}/edit`)
     return {message:"Product Image updated Successfully"}
   } catch (error) {
-    return {message:"Failed to update product image"}
+    return {message:`Failed to update product image-${error}`}
   }
 };

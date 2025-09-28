@@ -14,12 +14,12 @@ import {
 import Link from "next/link";
 
 import {
-  ClerkProvider,
+
   SignInButton,
   SignUpButton,
   SignedIn,
   SignedOut,
-  UserButton,
+
 } from "@clerk/nextjs";
 import { DropdownMenuSeparator } from "@radix-ui/react-dropdown-menu";
 import { Separator } from "../ui/separator";

@@ -1,6 +1,6 @@
 import {Skeleton} from "../ui/skeleton"
 
-function LoadingTable({rows = 5,columns = 3}:{rows?:number,columns?:number}){
+function LoadingTable({rows = 5}:{rows?:number}){
     const tableRows = Array.from({length: rows}, (_, i) => {
         return(
            <div className="mb-4" key={i}>

@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import {Prisma} from "@prisma/client"
 
 
-Prisma.ProductScalarFieldEnum.price // this is used to acess this value from prisma schema.
+// Prisma.ProductScalarFieldEnum.price // this is used to acess this value from prisma schema.
 
 const name = "price";
 type PriceInputProps = {

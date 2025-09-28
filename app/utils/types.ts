@@ -2,7 +2,7 @@
 // Keywords :- types cart type carttype cartitemtype cartstatetype cart state
 
 export type actionFunction =(
-    prevState:any,
+    // prevState:any,
     FormData:FormData
 ) => Promise<{message:string}>
 

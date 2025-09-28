@@ -19,7 +19,6 @@ import CheckboxInput from '@/components/form/CheckBoxInput'
 
 const CreateProductPage = () => {
     const name = faker.commerce.productName().toString()
-    const price = faker.commerce.price()
     const comapnyName = faker.company.name().toString()
     const description = faker.lorem.paragraph({min:10,max:20}) // also we can use faker.lorem.paragraph({min:10,max:20})
   return (
