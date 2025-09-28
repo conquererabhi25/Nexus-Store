@@ -16,8 +16,8 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  url      = "postgresql://postgres.iiurjkwkmvadgnwnylrp:Vegaaris2502999@aws-0-ap-south-1.pooler.supabase.com:6543/postgres?pgbouncer=true&connection_limit=1"
+  directUrl = "postgresql://postgres:Vegaaris2502999@db.iiurjkwkmvadgnwnylrp.supabase.co:5432/postgres"
 }
 
 model Product {
@@ -31,4 +31,14 @@ model Product {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   clerkId   String
+  favourite Favourite[] // one to many relationship
+}
+
+model Favourite{
+  id String @id @default(uuid())
+  clerkId String
+  product Product @relation(fields: [productId], references: [id] , onDelete: Cascade)
+  productId String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
 }
