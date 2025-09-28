@@ -8,7 +8,7 @@ import FavouriteToggleButton from "@/components/products/FavouriteToggleButton";
 import AddToCart from "@/components/single-product-details/AddToCart";
 import ProductRating from "@/components/single-product-details/ProductRating";
 
-// ✅ Define the props properly for Next.js App Router pages
+
 // type PageProps = {
 //   params: {
 //     id: string;
