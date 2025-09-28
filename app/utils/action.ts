@@ -110,7 +110,7 @@ export const CreateProductAction = async (
         clerkId: userId,
       },
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     if (error instanceof ZodError) {
       console.error("Validation Errors:", error.issues);
     }
