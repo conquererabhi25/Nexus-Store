@@ -16,7 +16,7 @@ import ProductRating from "@/components/single-product-details/ProductRating";
 // };
 
 // ✅ This is the right structure
-export default async function SingleProductPage({ params }:{params:{id:any}}) {
+export default async function SingleProductPage({ params }:{params:{id:string}}) {
   const productId = params.id;
 
   const product = await fetchSingleProduct(productId);
